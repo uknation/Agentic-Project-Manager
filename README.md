@@ -4,6 +4,10 @@
 
 *Manage complex projects with a team of AI agents, smoothly and efficiently.*
 
+> [!NOTE]
+> This is a customized, secure fork of APM maintained at [uknation/Agentic-Project-Manager](https://github.com/uknation/Agentic-Project-Manager).
+> It adds responsive mobile-first layouts, dynamic CRM resource allocation charts, workspace task loaders, and strict local security safeguards (localhost binding, XSS sanitizers, and automatic API key environment cleanup).
+
 ## What is APM?
 
 APM is an open-source framework for managing ambitious software projects with AI assistants. Instead of working in a single, increasingly chaotic chat, APM structures your work into a coordinated system where different AI agents handle planning, coordination, and execution as a team.
