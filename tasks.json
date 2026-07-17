@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "task_id": "T1",
+      "project_id": "PROJ-777",
+      "task_name": "API Gateway Core Development & Routing",
+      "description": "Implement the core API Gateway structure, define routing for user and payment services, and integrate initial rate-limiting logic.",
+      "assigned_to": "EMP-001",
+      "dependencies": [],
+      "priority": "high",
+      "status": "pending",
+      "start_date": "2026-07-20",
+      "end_date": "2026-07-23",
+      "estimated_hours": 32
+    },
+    {
+      "task_id": "T2",
+      "project_id": "PROJ-777",
+      "task_name": "Implement JWT Authentication",
+      "description": "Integrate and configure JWT authentication for API requests, including token validation and user context extraction.",
+      "assigned_to": "EMP-001",
+      "dependencies": [
+        "T1"
+      ],
+      "priority": "high",
+      "status": "pending",
+      "start_date": "2026-07-24",
+      "end_date": "2026-07-27",
+      "estimated_hours": 24
+    },
+    {
+      "task_id": "T3",
+      "project_id": "PROJ-777",
+      "task_name": "Setup API Gateway Deployment Infrastructure",
+      "description": "Set up the necessary cloud infrastructure (e.g., load balancers, auto-scaling groups, necessary networking) and CI/CD pipelines for API Gateway deployment.",
+      "assigned_to": "EMP-002",
+      "dependencies": [],
+      "priority": "high",
+      "status": "pending",
+      "start_date": "2026-07-20",
+      "end_date": "2026-07-25",
+      "estimated_hours": 40
+    },
+    {
+      "task_id": "T4",
+      "project_id": "PROJ-777",
+      "task_name": "API Gateway Security Review & Hardening",
+      "description": "Conduct a comprehensive security review of the API Gateway implementation (rate limiting, JWT auth, routing) and apply necessary hardening measures.",
+      "assigned_to": "EMP-003",
+      "dependencies": [
+        "T1",
+        "T2"
+      ],
+      "priority": "high",
+      "status": "pending",
+      "start_date": "2026-07-27",
+      "end_date": "2026-07-29",
+      "estimated_hours": 24
+    },
+    {
+      "task_id": "T5",
+      "project_id": "PROJ-777",
+      "task_name": "Draft API Gateway Technical Documentation",
+      "description": "Write comprehensive technical documentation for the API Gateway, covering routing, authentication (JWT), rate limiting, and general usage guidelines.",
+      "assigned_to": "EMP-004",
+      "dependencies": [
+        "T1",
+        "T2"
+      ],
+      "priority": "high",
+      "status": "pending",
+      "start_date": "2026-07-28",
+      "end_date": "2026-07-30",
+      "estimated_hours": 24
+    },
+    {
+      "task_id": "T6",
+      "project_id": "PROJ-777",
+      "task_name": "Deploy API Gateway to Staging/Production & Validate",
+      "description": "Perform the initial deployment of the API Gateway using the automated pipelines, followed by comprehensive integration and smoke testing to ensure full functionality.",
+      "assigned_to": "EMP-002",
+      "dependencies": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "priority": "high",
+      "status": "pending",
+      "start_date": "2026-07-29",
+      "end_date": "2026-07-31",
+      "estimated_hours": 24
+    }
+  ]
+}

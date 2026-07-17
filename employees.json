@@ -1,0 +1,38 @@
+[
+  {
+    "Employee_ID": "EMP-001",
+    "Employee_Name": "Alice Smith",
+    "Email": "alice@company.com",
+    "Role": "Backend Developer",
+    "Department": "Engineering",
+    "Manager": "Bob Johnson",
+    "Location": "San Francisco"
+  },
+  {
+    "Employee_ID": "EMP-002",
+    "Employee_Name": "Bob Johnson",
+    "Email": "bob@company.com",
+    "Role": "DevOps Engineer",
+    "Department": "Infrastructure",
+    "Manager": "Carol Danvers",
+    "Location": "Seattle"
+  },
+  {
+    "Employee_ID": "EMP-003",
+    "Employee_Name": "Charlie Brown",
+    "Email": "charlie@company.com",
+    "Role": "Security Engineer",
+    "Department": "Security",
+    "Manager": "Carol Danvers",
+    "Location": "Austin"
+  },
+  {
+    "Employee_ID": "EMP-004",
+    "Employee_Name": "Dana Scully",
+    "Email": "dana@company.com",
+    "Role": "Technical Writer",
+    "Department": "Product",
+    "Manager": "Bob Johnson",
+    "Location": "Remote"
+  }
+]

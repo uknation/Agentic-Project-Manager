@@ -1,0 +1,9 @@
+{
+  "PROJECT_ID": "PROJ-777",
+  "MILESTONE_NAME": "Release V1 API Gateway",
+  "MILESTONE_DESCRIPTION": "Implement, secure, document, and deploy the new core API Gateway with rate limiting, JWT auth, and routing for user and payment services.",
+  "MILESTONE_OWNER": "Alice Smith",
+  "MILESTONE_PRIORITY": "High",
+  "MILESTONE_START": "2026-07-20",
+  "MILESTONE_END": "2026-07-31"
+}
